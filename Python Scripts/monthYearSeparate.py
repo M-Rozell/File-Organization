@@ -3,7 +3,7 @@ import shutil
 import re
 
 # Define the path to the 'Other' folder
-other_folder_path = 'X:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Other'
+other_folder_path = ''
 
 # Regular expression to match dates in the YYYYMMDD format
 date_pattern = re.compile(r'(\d{4})(\d{2})(\d{2})')
