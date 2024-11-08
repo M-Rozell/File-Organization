@@ -36,6 +36,6 @@ def find_and_move_corrupted_folders(root_folder, target_folder):
         shutil.move(folder, destination)
 
 # Specify your root folder path and target folder path
-root_folder = r'C:\Users\MaggieRozell\Desktop\Trash\missing videos\corrupted'
-target_folder = r'C:\Users\MaggieRozell\Desktop\Trash\missing videos\found Corrupted'
+root_folder = r''
+target_folder = r''
 find_and_move_corrupted_folders(root_folder, target_folder)
