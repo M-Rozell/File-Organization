@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Define the path to the main project folder and the Duplicates folder
-project_folder = 'Z:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Upgrade\\2022\\11'
-duplicates_folder = 'Z:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Upgrade\\2022\\11\\Duplicates'
+project_folder = r''
+duplicates_folder = r''
 # Create the Duplicates folder if it doesn't exist
 os.makedirs(duplicates_folder, exist_ok=True)
 
