@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Set the paths to your folders
-pdf_folder_path = r'X:\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\Other\2023\02 pdf'
-project_folder_path = r'X:\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\Other\2023\02'
+pdf_folder_path = r''
+project_folder_path = r''
 
 # Loop through each PDF file in the pdf folder
 for pdf_file in os.listdir(pdf_folder_path):
