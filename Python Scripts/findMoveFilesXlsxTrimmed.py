@@ -3,9 +3,9 @@ import shutil
 import pandas as pd
 
 # Define paths
-excel_file_path = r'X:\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\NoMP4\2023\02\folder_list.xlsx'  # Path to the Excel file with folder names
-source_root_folder = r'V:\017560-12 - JEFFCO 2022 AMP08\JEFFCO\FEBRUARY\JEFFCO - FEBRUARY 2023'  # Path to the main project folder with subfolders
-destination_folder = r'X:\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\NoMP4\2023\02\Missing files'  # Path where folders should be copied
+excel_file_path = r''  # Path to the Excel file with folder names
+source_root_folder = r''  # Path to the main project folder with subfolders
+destination_folder = r''  # Path where folders should be copied
 
 # Load folder names from Excel, skipping the header row
 folder_names_df = pd.read_excel(excel_file_path)
