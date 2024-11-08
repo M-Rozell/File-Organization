@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Set the path to your project folder
-project_folder = 'Z:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Upgrade\\2022\\11'
+project_folder = r''
 # Create a destination folder for folders without MP4 files
-destination_folder = 'Z:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Upgrade\\2022\\no'
+destination_folder = r''
 
 # Create the destination folder if it doesn't exist
 os.makedirs(destination_folder, exist_ok=True)
