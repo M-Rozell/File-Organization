@@ -3,8 +3,8 @@ import shutil
 import pandas as pd
 
 # Define the path to the Excel file and the root project folder
-csv_file_path = r'C:\Users\MaggieRozell\Desktop\Trash\missing videos\Project mp4\error2csv.csv'
-project_root = r'C:\Users\MaggieRozell\Desktop\Trash\missing videos\Project mp4\Other'
+csv_file_path = r''
+project_root = r''
 
 # Load the Excel file into a DataFrame
 df = pd.read_csv(csv_file_path, header=0)
