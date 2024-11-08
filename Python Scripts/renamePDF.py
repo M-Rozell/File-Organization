@@ -1,7 +1,7 @@
 import os
 
 # Set your folder path here
-folder_path = 'X:\\017560-12 - JEFFCO 2022 AMP08 - MAINLINE\\Other\\2022\\May 2022 PDF'
+folder_path = r''
 
 # Loop through each file in the folder
 for filename in os.listdir(folder_path):
